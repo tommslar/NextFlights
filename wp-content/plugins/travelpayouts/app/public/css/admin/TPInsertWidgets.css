@@ -1,0 +1,252 @@
+.tp-flights-tables-widget-title,
+.tp-flights-tables-widget-origin,
+.tp-flights-tables-widget-destination,
+.tp-flights-tables-widget-airline,
+.tp-flights-tables-widget-subid,
+.tp-flights-tables-widget-filter-airline,
+.tp-flights-tables-widget-filter-flight-number,
+.tp-flights-tables-widget-limit,
+.tp-flights-tables-widget-currency,
+.tp-flights-tables-widget-paginate,
+.tp-flights-tables-widget-one-way,
+.tp-flights-tables-widget-off-title,
+.tp-flights-tables-widget-transplant,
+.tp-hotels-tables-widget-title,
+.tp-hotels-tables-widget-city,
+.tp-hotels-tables-widget-subid,
+.tp-hotels-tables-widget-selections-type,
+.tp-hotels-tables-widget-check_in,
+.tp-hotels-tables-widget-check_out,
+.tp-hotels-tables-widget-limit,
+.tp-hotels-tables-widget-paginate,
+.tp-hotels-tables-widget-off_title,
+.tp-hotels-tables-widget-link_without_dates,
+.tp-widgets-widget-subid,
+.tp-widgets-widget-origin,
+.tp-widgets-widget-destination,
+.tp-widgets-widget-hotel-id,
+.tp-widgets-widget-size,
+.tp-widgets-widget-direct,
+.tp-widgets-widget-one-way,
+.tp-widgets-widget-zoom,
+.tp-widgets-widget-calendar-period,
+.tp-widgets-widget-calendar-period-range,
+.tp-widgets-widget-responsive,
+.tp-widgets-widget-popular-routes-count,
+.tp-widgets-widget-popular-routes,
+.tp-widgets-widget-type-6,
+.tp-widgets-widget-limit-6,
+.tp-widgets-widget-type-7,
+.tp-widgets-widget-filter,
+.tp-widgets-widget-origin-7,
+.tp-widgets-widget-destination-7,
+.tp-widgets-widget-airline-7,
+.tp-widgets-widget-limit-7,
+.tp-widgets-widget-cat,
+.tp-search-form-widget-origin,
+.tp-search-form-widget-destination,
+.tp-search-form-widget-hotel-city
+{
+    display: none;
+}
+
+.tp-widgets-widget-zoom{
+    width: 11%;
+}
+.tp-widgets-widget-calendar-period-select{
+    width: 45%;
+}
+
+.tp-flights-tables-widget-select-shortcode{
+    max-width: 400px;
+}
+.tp-flights-tables-widget-limit input{
+    max-width: 50px;
+}
+.tp-widgets-widget-cat-1 select,
+.tp-widgets-widget-cat-2 select{
+    margin-bottom: 13px;
+}
+.tp-widgets-widget-filter label{
+    display: block;
+    width: 100%;
+}
+.tp-widgets-widget-filter label:first-child{
+    margin-bottom: 5px;
+}
+
+.ui-datepicker {
+    width: 300px;
+    height: auto;
+    background: #fff;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #dcdfdf;
+    padding: 15px;
+    display: none;
+}
+
+.ui-datepicker-calendar {
+    width: 100%;
+}
+.ui-datepicker-calendar th {
+    height: 20px;
+    border-bottom: 1px solid #00abfd;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    color: #b5b5b9;
+    line-height: 11px;
+}
+.ui-datepicker-calendar td {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.ui-datepicker-calendar td a {
+    font-size: 13px;
+    color: #23282d;
+    font-weight: 300;
+    display: block;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 26px;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+.ui-datepicker-calendar td a:hover {
+    border: 2px solid #00abfd;
+    text-decoration: none;
+}
+.ui-datepicker-calendar td a.ui-state-highlight {
+    background: #00abfd;
+    color: #fff;
+    border-color: #00abfd;
+    text-align: center;
+
+}
+
+.ui-datepicker-header {
+    height: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 31px;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZTRlNGU2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMSIgdmlld0JveD0iMCAwIDMwIDMxIj48cGF0aCBkPSJNMTUgLjQxN2MtOC4yODQgMC0xNSA2LjcxNi0xNSAxNXM2LjcxNiAxNSAxNSAxNSAxNS02LjcxNiAxNS0xNS02LjcxNi0xNS0xNS0xNXptMCAyOGMtNy4xNjggMC0xMy01LjgzMi0xMy0xM3M1LjgzMi0xMyAxMy0xMyAxMyA1LjgzMiAxMyAxMy01LjgzMiAxMy0xMyAxM3pNMjMgMTVjMCAuNTUzLS40NDcgMS0xIDFIMTAuNDE0bDUuMjkzIDUuNWMuMzkuMzkyLjM5IDEuMTI4IDAgMS41Mi0uMTk1LjE5NC0uNDUuMzQ0LS43MDcuMzQ0cy0uNTEyLS4wNy0uNzA3LS4yNjdsLTctNi45ODdjLS4zOS0uMzktLjM5LTEuMDE3IDAtMS40MDdsNy02Ljk5N2MuMzktLjM5IDEuMDIzLS4zOSAxLjQxNC4wMDJzLjM5LjgxNSAwIDEuMjA2TDEwLjQxNCAxNEgyMmMuNTUzIDAgMSAuNDQ3IDEgMXoiLz48L3N2Zz4=");
+}
+.ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDBhYmZkIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMSIgdmlld0JveD0iMCAwIDMwIDMxIj48cGF0aCBkPSJNMTUgLjQxN2MtOC4yODQgMC0xNSA2LjcxNi0xNSAxNXM2LjcxNiAxNSAxNSAxNSAxNS02LjcxNiAxNS0xNS02LjcxNi0xNS0xNS0xNXptMCAyOGMtNy4xNjggMC0xMy01LjgzMi0xMy0xM3M1LjgzMi0xMyAxMy0xMyAxMyA1LjgzMiAxMyAxMy01LjgzMiAxMy0xMyAxM3pNMjMgMTVjMCAuNTUzLS40NDcgMS0xIDFIMTAuNDE0bDUuMjkzIDUuNWMuMzkuMzkyLjM5IDEuMTI4IDAgMS41Mi0uMTk1LjE5NC0uNDUuMzQ0LS43MDcuMzQ0cy0uNTEyLS4wNy0uNzA3LS4yNjdsLTctNi45ODdjLS4zOS0uMzktLjM5LTEuMDE3IDAtMS40MDdsNy02Ljk5N2MuMzktLjM5IDEuMDIzLS4zOSAxLjQxNC4wMDJzLjM5LjgxNSAwIDEuMjA2TDEwLjQxNCAxNEgyMmMuNTUzIDAgMSAuNDQ3IDEgMXoiLz48L3N2Zz4=");
+}
+
+.ui-datepicker-prev {
+    left: 0;
+}
+
+.ui-datepicker-next {
+    right: 0;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #b5b5b9;
+}
+
+.TPBtnDelete{
+    height: 40px;
+    background-color: #e10000;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 15px;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    outline: none;
+}
+.TPBtnDelete:hover,
+.TPBtnDelete:active,
+.TPBtnDelete:link,
+.TPBtnDelete:visited
+{
+    background: #f20000;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.TPBtnAdd {
+    height: 40px;
+    background-color: #69c7f4;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 15px;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    outline: none;
+}
+
+.TPBtnAdd:hover,
+.TPBtnAdd:active,
+.TPBtnAdd:link,
+.TPBtnAdd:visited
+{
+    background: #00abfd;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+.TPBtnAdd i {
+    background: url("../../images/plus.png") no-repeat;
+    display: block;
+    height: 100%;
+    width: 22px;
+    margin-right: 10px;
+    background-position: center;
+    float: left;
+}
+.tp-widgets-widget-airline-7-label{
+    display: block;
+}
+
+.tp-widget-error{
+    border: 1px solid #dd3d36 !important;
+}

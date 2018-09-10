@@ -36,6 +36,9 @@
 				<?php endif;
 
 				get_template_part( 'template-parts/footer/site', 'info' );
+
+				// Agrego mi hook personalizado para cambiar contenido del footer
+				do_action("mi_hook");
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->

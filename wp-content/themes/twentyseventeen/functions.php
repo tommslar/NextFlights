@@ -584,3 +584,17 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+
+function funcion_programada_php() { // agrego footer personalizado
+	echo "Copyright 2018. NextFlights.";
+}
+
+function funcion_mis_estilos() { // cargo mis estilos
+	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'my-style', get_theme_file_uri( '/assets/css/my-style.css' ), array( 'twentyseventeen-style' ), '1.0' );
+}
+
+add_action('mi_hook', 'funcion_programada_php');
+add_action('wp_enqueue_scripts', 'funcion_mis_estilos');

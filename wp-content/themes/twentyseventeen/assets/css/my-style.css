@@ -1,0 +1,25 @@
+.site-branding{
+	display: none;
+}
+h3.TP-TitleTables {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #6ec1e4 !important;
+    text-transform: uppercase;
+    font-size: 1.625rem !important;
+    font-weight: 600 !important;
+}
+.textwidget {
+    text-align: center;
+    margin-top: 40px;
+}
+.site-info{
+	display: none;
+}
+.wrap{
+	text-align: center;
+	color: white;
+}
+.site-footer{
+	background-color:  #6ec1e4
+}
